@@ -1,0 +1,182 @@
+package zuoye2;
+
+import java.util.Scanner;
+
+public class zuoye2 {
+	public static void main(String args[]) {
+                Scanner scan = new Scanner(System.in);
+
+float price   //价格
+float integer = 0  //zhengshu
+float decimals  //xiaoshu
+int  two￥ //
+int  one$ //
+int a //50fen
+int b //20fen
+int c // 5fen
+
+System.out.println("请输入零钱数目")；
+
+float price = scan.nextFloat();]
+
+if (price > integer)
+{
+for (integer = 0,integer < price,integer++)
+}
+else
+{
+
+}
+
+if price < 0
+price = price*100
+a = price%50
+b = （price/50）%20
+c = 
+
+
+
+
+
+package zy222;
+
+import java.util.Scanner;
+public class zy222 {
+public static void main(String args[]) {
+		
+		Scanner scan = new Scanner(System.in);
+		double lengthCost = 0;
+		double widthCost = 0;
+		double colorCost = 0;
+		double paperBoard;
+		double glassCost = 0;
+		double crownCost = 0;
+		double cost = 0;
+		int exquist = 0;
+		int ordinaly = 1;
+		
+		System.out.print("长度：");
+		double length = scan.nextDouble();
+		System.out.print("宽度：");
+		double width = scan.nextDouble();
+		System.out.print("类型(普通请输入1，精美请输入0)：");
+		int type = scan.nextInt();
+		System.out.print("是否选择颜色(是请输入1，否请输入0)：");
+		int color = scan.nextInt();
+		System.out.print("请输入皇冠数量：");
+		int crown = scan.nextInt();
+		
+		if (type == 0)
+		{
+		lengthCost = 2 * 0.25 * length;
+		widthCost = 2 * 0.25 * width;
+		}
+		
+		
+		if (type == 1)
+		{
+			lengthCost = 2 * 0.15 * length;
+			widthCost = 2 * 0.15 * width;
+		}
+		if (color != 0)
+		{
+			colorCost = length * width * 0.1;
+		}
+		crownCost = crown * 0.35;
+		
+		cost = lengthCost + widthCost + colorCost + crownCost;
+			
+		System.out.print("总成本："+cost);
+		
+		
+		
+		
+		
+		
+
+}
+}
+
+		
+		
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
+
+
+
+package zy222;
+
+import java.util.Scanner;
+public class zy222 {
+public static void main(String args[]) {
+		
+		Scanner scan = new Scanner(System.in);
+		double lengthCost = 0;
+		double widthCost = 0;
+		double colorCost = 0;
+		double paperBoard;
+		double glassCost = 0;
+		double crownCost = 0;
+		double cost = 0;
+		int exquist = 0;
+		int ordinaly = 1;
+		
+		System.out.print("长度：");
+		double length = scan.nextDouble();
+		System.out.print("宽度：");
+		double width = scan.nextDouble();
+		System.out.print("类型(普通请输入1，精美请输入0)：");
+		int type = scan.nextInt();
+		System.out.print("是否选择颜色(是请输入1，否请输入0)：");
+		int color = scan.nextInt();
+		System.out.print("请输入皇冠数量：");
+		int crown = scan.nextInt();
+		
+		if (type == 0)
+		{
+		lengthCost = 2 * 0.25 * length;
+		widthCost = 2 * 0.25 * width;
+		}
+		
+		if (type == 1)
+		{
+			lengthCost = 2 * 0.15 * length;
+			widthCost = 2 * 0.15 * width;
+		}
+		if (color != 0)
+		{
+			colorCost = length * width * 0.1;
+		}
+		crownCost = crown * 0.35;
+		
+		cost = lengthCost + widthCost + colorCost + crownCost;
+			
+		System.out.print("总成本："+cost);
+		
+		
+		
+		
+		
+		
+
+}
+}
